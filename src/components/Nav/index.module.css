@@ -1,0 +1,11 @@
+.mainNav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.mainNav li a {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/*# sourceMappingURL=index.module.css.map */

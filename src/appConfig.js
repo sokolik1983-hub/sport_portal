@@ -1,7 +1,3 @@
-
-
-
-
 const mainNav = [
     {
         id: 1,
@@ -38,5 +34,26 @@ const mainNav = [
 
     }
 ];
-
-export default mainNav;
+const appRoutes = [
+    {
+        exact: true,
+        path: '/',
+    },
+    {
+        exact: true,
+        path: '/prognozi-na-sport',
+    },
+    {
+        exact: true,
+        path: '/bukmakers',
+    },
+    {
+        exact: true,
+        path: '/services',
+        // component: LoadableModules.LoadableMapPage
+    },
+]
+export {
+    mainNav,
+    appRoutes
+}
